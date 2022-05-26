@@ -2,7 +2,8 @@ var checkbox = document.getElementById("checkbox");
 var clock = document.getElementById("clock");
 var mn  = document.querySelector('.mn');
 var style = getComputedStyle(document.body);
-var color= style.getPropertyValue('--main-color');
+// var color= style.getPropertyValue('--main-color');
+var color = "#ffffff"
 
 checkbox.addEventListener('change', ()=>{
     document.body.classList.toggle("light");
