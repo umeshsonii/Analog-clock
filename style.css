@@ -10,6 +10,8 @@ body {
     height: 100vh;
     background-color: #091921;
     font-family: 'Jost', sans-serif;
+    transition: background-color 0.2s ease-in;
+
 
 }
 
